@@ -3,7 +3,6 @@ import { Image, KeyboardAvoidingView, Platform, Pressable, SafeAreaView, Text, T
 
 import { StatusBar } from "expo-status-bar";
 import { AntDesign } from '@expo/vector-icons';
-import { LinearGradient } from 'expo-linear-gradient';
 
 import Button from "../../components/button";
 
@@ -12,8 +11,8 @@ export default function Login({ navigation }) {
   const [number, onChangeNumber] = useState(null);
 
   return (
-    <LinearGradient
-      colors={['#FED8B1', '#FFB7B2', '#FDC7E1', '#E2C1F0']}
+    <View
+      colors={['#FFF']}
       locations={[0.0, 0.3, 0.6, 1.0]}
       style={{ flex: 1 }}
     >
@@ -87,6 +86,6 @@ export default function Login({ navigation }) {
           </View>
         </KeyboardAvoidingView>
       </View>
-    </LinearGradient>
+    </View>
   );
 }
