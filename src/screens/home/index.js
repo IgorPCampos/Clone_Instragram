@@ -20,7 +20,7 @@ export default function Home({ navigation }) {
               horizontal
               renderItem={({ item }) => <StoryItem image={item.image} name={item.name} />}
               keyExtractor={item => item.id}
-              ItemSeparatorComponent={() => <View style={{ width: 10 }} />} // Espaçamento entre os itens
+              ItemSeparatorComponent={() => <View style={{ width: 5 }} />} // Espaçamento entre os itens
             />
           </SafeAreaView>
         </View>

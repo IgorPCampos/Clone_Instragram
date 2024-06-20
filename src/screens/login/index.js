@@ -22,7 +22,7 @@ export default function Login({ navigation }) {
           <AntDesign name="arrowleft" size={24} color="black" />
         </View>
         <View className="flex items-center">
-          <Text className="text-xl font-bold">Português (Brasil)</Text>
+          <Text className="text-xl font-bold">Português</Text>
           <View className="my-20">
             <Image
               className="w-20 h-20"
@@ -35,7 +35,7 @@ export default function Login({ navigation }) {
             <SafeAreaView>
               <TextInput
                 placeholder="Nome de usuário"
-                className="h-10 m-3 p-6 rounded-md border border-gray-300"
+                className="h-8 m-2 p-5 rounded-md border border-gray-300"
                 onChangeText={onChangeText}
                 value={text}
               />
@@ -75,12 +75,9 @@ export default function Login({ navigation }) {
                 </Text>
               </Pressable>
               <View>
-                <Image
-                  className="w-20 h-10"
-                  source={{
-                    uri: 'https://branditechture.agency/brand-logos/wp-content/uploads/wpdm-cache/Meta-Black-Wordmark-900x0.png',
-                  }}
-                />
+                <Text>
+                  Igor Pereira Campos
+                </Text>
               </View>
             </View>
           </View>
